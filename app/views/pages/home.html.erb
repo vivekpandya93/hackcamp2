@@ -1,4 +1,37 @@
 <div class="jumbotron">
-	<h1>Welcome to my app!</h1>
+	<!DOCTYPE html>
+<head>
+  <title>Bruin Connect</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("http://upload.wikimedia.org/wikipedia/commons/3/39/Janss_Steps,_Royce_Hall_in_background,_UCLA.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 100;
+      color: white;
+      font-family: arial bold;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: rgb(0,90,250);
+      color: rgb(255,255,0);
+  }
+  </style>
+</head>
+<body>
+  <img src="http://www.truebruin.ucla.edu/uclaseal.gif">
+  <p>Welcome to Bruin Connect!</p>
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <input type="submit">
+</body>
 	<p>Click here to Sign up <%= link_to "Sign up", "#" , class: "btn btn-primary btn-lg"  %></p>
 </div>
